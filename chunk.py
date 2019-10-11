@@ -7,7 +7,7 @@ from pydub.silence import split_on_silence
 # and applies speech recognition
 def silence_based_conversion(path, seconds_waiting=1):
     # open the audio file stored in
-    # the local system as a wav file.
+    # the local system as a .wav file.
     extension = path.split(".")[-1]
     if extension == "mp3":
         song = AudioSegment.from_mp3(path)
