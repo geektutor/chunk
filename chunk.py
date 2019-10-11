@@ -3,10 +3,6 @@
 
 # In[3]:
 
-
-# importing libraries
-import speech_recognition as sr
-
 import os
 
 from pydub import AudioSegment
