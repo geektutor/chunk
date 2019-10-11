@@ -26,7 +26,7 @@ def silence_based_conversion(path, seconds_waiting=1):
         min_silence_len = seconds_waiting * 1000,
 
         # consider it silent if quieter than -16 dBFS
-        # adjust this per requirement
+        # adjust this per requirement.
         silence_thresh = -16
     )
 
