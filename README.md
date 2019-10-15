@@ -1,6 +1,8 @@
 # Chunk
 
-Split an audio file into different chunks where silence is identified
+Takes in a directory then extract the silent durations of every audio file present. Then it will return a csv file with the durations.
+
+Silence is defined by 1/10 of a second.
 
 ## Setting up
 * Install Python
@@ -8,7 +10,7 @@ Split an audio file into different chunks where silence is identified
 * setup `ffmpeg` - follow instructions from the official website [https://www.ffmpeg.org](https://www.ffmpeg.org)
 
 ## Usage
-* Run the script and provide an audio file (mp3 or wav)
+* Run the script and provide a directory for it to scan
 
 
 You can pass an additional `seconds_waiting` parameter. This is the minimum amount of time in seconds for a part of the audio to be classified as silence.
