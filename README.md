@@ -1,4 +1,5 @@
 # Chunk
+What it does
 
 Takes in a directory then extract the silent durations of every audio file present. Then it will return a csv file with the durations.
 
