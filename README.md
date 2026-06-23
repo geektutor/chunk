@@ -14,3 +14,4 @@ Silence is defined by 1/10 of a second.
 
 
 You can pass an additional `seconds_waiting` parameter. This is the minimum amount of time in seconds for a part of the audio to be classified as silence.
+.
